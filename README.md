@@ -24,8 +24,6 @@ To deploy the flask app locally the following steps are to be performed,
 3. Run the following commands,
 
 ```
-pip install Flask
-
 python -m flask
 
 set FLASK_DEBUG=1
@@ -35,8 +33,3 @@ set FLASK_APP=%path%myapp.py
 flask run
 ```
 Note: The commands above are with respect to windows machine.
-
-### Built With
-
-* [FLASK](http://flask.pocoo.org/) - The web framework used
-
